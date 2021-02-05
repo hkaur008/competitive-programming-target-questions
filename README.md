@@ -1,2 +1,5 @@
 # competitive-programming-target-questions
-my cp questions directory of every site (gfg, codeforces,codechef).
+
+solution to the problems of sites : codechef , codeforces and gfg
+core subject : CP ELECTIVE
+Data and algorithms
