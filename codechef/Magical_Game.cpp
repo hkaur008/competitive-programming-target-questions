@@ -23,7 +23,7 @@ int main()
 
         while (n > 0)
         {
-            
+
             n = n & (n - 1);
             ++count;
         }
