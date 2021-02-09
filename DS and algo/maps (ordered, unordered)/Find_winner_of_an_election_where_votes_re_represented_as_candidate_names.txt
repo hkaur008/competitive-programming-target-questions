@@ -1,0 +1,19 @@
+3
+6
+xyz abc pqr abc pqr xyz 
+4
+hargun hargun hargun hargun
+3
+pqr abc abc
+
+naive approach:
+
+// complexity :
+Time Complexity : O(n2)
+Auxiliary Space : O(n)
+
+efficient_approach:
+
+//complexity
+Time Complexity : O(n)
+Auxiliary Space : O(n)

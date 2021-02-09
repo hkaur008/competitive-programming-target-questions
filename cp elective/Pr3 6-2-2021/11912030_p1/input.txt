@@ -1,0 +1,11 @@
+4
+8
+11 13 5 20 7 6 21 3
+3
+10 3 7 
+4
+1 2 3 4 
+5
+1 1 1 1 1  
+
+// explaining all outputs in output.txt

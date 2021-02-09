@@ -1,0 +1,52 @@
+3
+6
+10 5 20 5 10 5
+4
+100 100 100 100
+3
+10 20 30
+
+naive approach:
+10 is freq -->2
+5 is freq -->3
+20 is freq -->1
+--test----
+100 is freq -->4
+--test----
+10 is freq -->1
+20 is freq -->1
+30 is freq -->1
+--test----
+// complexity :
+Time Complexity : O(n2)
+Auxiliary Space : O(n)
+
+efficient_approach:
+20--freq-> 1
+5--freq-> 3
+10--freq-> 2
+--test----
+100--freq-> 4
+--test----
+30--freq-> 1
+20--freq-> 1
+10--freq-> 1
+--test----
+//complexity
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+
+hashing_inorder:
+10--freq-> 2
+5--freq-> 3
+20--freq-> 1
+--test----
+100--freq-> 4
+--test----
+10--freq-> 1
+20--freq-> 1
+30--freq-> 1
+--test----
+//complexity
+Time Complexity : O(n) // only fr printing mp acc to n we need to traverse through array once again
+Auxiliary Space : O(n)
