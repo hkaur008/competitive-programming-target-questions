@@ -1,0 +1,27 @@
+5
+5
+-1 -2 -3 -4 5
+5
+2 -2 8 1 9
+3
+1 2 1
+6
+1 6 -1 7 -8 9
+6
+2 3 4 5 6 7
+
+test--> 4
+ the min pais are :-4 and 5  they where forming least absollute sum
+-----------------------------
+test--> 3
+ the min pais are :-2 and 2
+-----------------------------
+test--> 2
+ the min pais are :1 and 1   // on duplicates select the number with consecutive duplicate pair rather than the lext leagest unique number
+-----------------------------
+test--> 1
+ the min pais are :-1 and     // negative + positive of same num =0
+-----------------------------
+test--> 0
+ the min pais are :2 and 3  // when we have all positive we add the  first smallest abs(number)+second smallest abs(number)
+-----------------------------

@@ -48,5 +48,5 @@ hashing_inorder:
 30--freq-> 1
 --test----
 //complexity
-Time Complexity : O(n) // only fr printing mp acc to n we need to traverse through array once again
+Time Complexity : O(n) // only freq printing mp acc to n we need to traverse through array once again
 Auxiliary Space : O(n)

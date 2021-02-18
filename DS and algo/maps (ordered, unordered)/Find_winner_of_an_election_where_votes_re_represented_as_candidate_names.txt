@@ -7,13 +7,25 @@ hargun hargun hargun hargun
 pqr abc abc
 
 naive approach:
+abc---2
+=========================
+hargun---4
+=========================
+abc---2
+=========================
+
 
 // complexity :
-Time Complexity : O(n2)
+Time Complexity : O(n^2*max_length)
 Auxiliary Space : O(n)
 
 efficient_approach:
-
+abc
+=========================
+hargun
+=========================
+abc
+=========================
 //complexity
-Time Complexity : O(n)
+Time Complexity : O(n*max_length)
 Auxiliary Space : O(n)

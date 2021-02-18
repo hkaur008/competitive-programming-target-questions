@@ -19,7 +19,7 @@ int main()
     test
     {
 
-        ll n, count = 0, total = 0;
+        ll n, count = 0;
         ll array[1005];
         cin >> n;
         string X, Y;
@@ -28,45 +28,28 @@ int main()
         {
             cin >> array[i];
         }
-        ll i;
-        for (i = 0; i < n; i++)
+
+        for (ll i = 0; i < n; i++)
         {
             if (X[i] == Y[i])
             {
                 ++count;
             }
-            else
-            {
-                break;
-            }
         }
-        ll j;
-        for (j = n - 1; j > i; j--)
+
+        if (count == n)
         {
-            if (X[j] == Y[j])
-            {
-                ++count;
-            }
-            else
-            {
-                break;
-            }
+            cout << array[n] << endl;
         }
-        total = max(count, total);
-        count = 0;
-        for (ll k = i + 1; k < j; k++)
+        else
         {
-            if (X[k] == Y[k])
+            ll total = 0;
+            for (ll k = 0; k <= count; k++)
             {
-                ++count;
+                total = max(total, array[k]);
             }
-            else
-            {
-                total = max(count, total);
-                count = 0;
-            }
+
+            cout << total << endl;
         }
-        total = max(count, total);
-        cout << array[total] << endl;
     }
 }
